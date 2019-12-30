@@ -7,7 +7,7 @@ export default () => {
 
 	nextButton.onactivate = () => {
 		// Goes to view-1 passing a 0 as a parameter
-		next('scoring', 0);
+		next('view-scoring', 0);
     };
     
     nextButton.onmousedown = () => {

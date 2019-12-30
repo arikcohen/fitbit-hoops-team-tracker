@@ -17,10 +17,10 @@ let teamList: Team[] = [];
 
 // Initialize the views...
 setup({
-	'intro': viewIntro,
-	'team-pick': viewTeamPick,
-	'scoring': viewScoring,
-	'stats': viewStats,
+	'view-intro': viewIntro,
+	'view-team-pick': viewTeamPick,
+	'view-scoring': viewScoring,
+	'view-stats': viewStats,
 });
 
 deviceSettings.initialize((data) => {
@@ -29,4 +29,4 @@ deviceSettings.initialize((data) => {
 
 
 // ... and goes to the intro screen
-next('intro');
+next('view-intro');

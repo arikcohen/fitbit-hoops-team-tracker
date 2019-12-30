@@ -1,4 +1,4 @@
 class Player {    
-    constructor(public firstName : string, public lastName:string, public jerseyNumber: number ) {        
+    constructor(public name : string, public jerseyNumber: number, public id:string ) {        
     }
 }
