@@ -29,6 +29,7 @@
     "debug": "fitbit"
   },
   "dependencies": {
+    "fitbit-fs-settings": "^1.1.0",
     "fitbit-views": "^1.0.0"
   }
 }

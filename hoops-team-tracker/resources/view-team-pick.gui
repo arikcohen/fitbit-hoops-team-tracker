@@ -1,0 +1,20 @@
+<svg viewport-fill="midnightblue">   
+
+  <use id="player1" href="#push-button" x="30" y="50" height="30" width="120"
+    fill="steelblue" font-family="System-Regular" font-size="24">
+    <set href="#text" attributeName="text-buffer" to="Thomas12345"/>
+    <set href="#text" attributeName="fill" to="white" />
+    <set href="#text" attributeName="y" to="8" />
+    <set href="#text" attributeName="text-overflow" to="clip"/>
+  </use>
+
+  <use id="player2" href="#push-button" x="30" y="50" height="30" width="120"
+    fill="steelblue" font-family="System-Regular" font-size="24">
+    <set href="#text" attributeName="text-buffer" to="Thomas12345"/>
+    <set href="#text" attributeName="fill" to="white" />
+    <set href="#text" attributeName="y" to="8" />
+    <set href="#text" attributeName="text-overflow" to="clip"/>
+  </use>
+
+  
+</svg>
